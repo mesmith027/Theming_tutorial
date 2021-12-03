@@ -5,7 +5,7 @@ import altair as alt
 
 st.set_page_config(layout="wide", page_icon=":art:", page_title="Custom Theming")
 
-blank, title_col, blank = st.beta_columns([2,3.5,2])
+blank, title_col, blank = st.columns([2,3.5,2])
 title_col.title("Custom Themes :art:")
 st.header("Lets change it up!")
 
