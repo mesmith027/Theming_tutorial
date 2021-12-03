@@ -85,7 +85,7 @@ area = (
         .interactive()
 )
 
-body1, sep, body2 = st.beta_columns([8,0.2,8])
+body1, sep, body2 = st.columns([8,0.2,8])
 
 with body1:
 
